@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rarara studio — アプリ一覧 / Apps</title>
+<style>
+  :root {
+    --bg:#ffffff; --fg:#1c1c1e; --sub:#5a5a5f;
+    --line:#e3e3e8; --accent:#d6247a; --card:#f7f7fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141419; --fg:#f2f2f5; --sub:#a8a8b0; --line:#2c2c35; --accent:#ff5ea8; --card:#1e1e26; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; padding:0 20px 72px; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Segoe UI",Roboto,sans-serif;
+    line-height:1.8; font-size:16px; -webkit-text-size-adjust:100%;
+  }
+  .wrap { max-width:760px; margin:0 auto; }
+  header { padding:52px 0 24px; border-bottom:1px solid var(--line); }
+  h1 { font-size:1.7rem; margin:0 0 6px; }
+  .tag { color:var(--sub); font-size:.95rem; margin:0; }
+  .apps { margin-top:14px; }
+  .app {
+    border:1px solid var(--line); border-radius:14px; background:var(--card);
+    padding:20px 22px; margin:18px 0;
+  }
+  .app h2 { font-size:1.2rem; margin:0 0 2px; }
+  .app .en { color:var(--sub); font-size:.9rem; margin:0 0 14px; }
+  .links { display:flex; gap:10px; flex-wrap:wrap; }
+  .links a {
+    display:inline-block; padding:8px 18px; border-radius:999px;
+    text-decoration:none; font-size:.92rem; font-weight:600;
+    color:#fff; background:var(--accent);
+  }
+  .links a.ghost {
+    color:var(--accent); background:transparent; border:1px solid var(--accent);
+  }
+  footer { margin-top:48px; padding-top:22px; border-top:1px solid var(--line); color:var(--sub); font-size:.85rem; }
+  a.mail { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>rarara studio</h1>
+  <p class="tag">アプリのプライバシーポリシー・サポート窓口 / Privacy policies &amp; support for our apps</p>
+</header>
+
+<div class="apps">
+
+  <div class="app">
+    <h2>超シンプル高速スピード</h2>
+    <p class="en">Blitz Speed</p>
+    <div class="links">
+      <a href="blitzspeed/privacy.html">プライバシーポリシー</a>
+      <a class="ghost" href="blitzspeed/support.html">サポート</a>
+    </div>
+  </div>
+
+  <div class="app">
+    <h2>オトマネ</h2>
+    <p class="en">Earback</p>
+    <div class="links">
+      <a href="earback-/privacy.html">プライバシーポリシー</a>
+      <a class="ghost" href="earback-/support.html">サポート</a>
+    </div>
+  </div>
+
+  <div class="app">
+    <h2>高速音読</h2>
+    <p class="en">Fast Reading Aloud</p>
+    <div class="links">
+      <a href="sokudoku/privacy.html">プライバシーポリシー</a>
+      <a class="ghost" href="sokudoku/support.html">サポート</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>お問い合わせ / Contact: <a class="mail" href="mailto:rararastudioapp@gmail.com">rararastudioapp@gmail.com</a></p>
+  <p>© 2026 rarara studio</p>
+</footer>
+
+</div>
+</body>
+</html>
